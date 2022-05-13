@@ -1,0 +1,19 @@
+.component-ctr {
+    display: grid;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+h1 {
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+p{
+    color: var(--primary-color);
+}
+
+img {
+    width: 67px;
+    margin-right: 15px;
+}

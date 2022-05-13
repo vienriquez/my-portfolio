@@ -1,0 +1,11 @@
+<div class="component-ctr">
+    <div class="news-section" *ngFor="let news of newsfeed">
+        <h1>{{news.headline}}</h1>
+        <p>
+            {{news.story}}
+        </p>
+        <div class="source-ctr" *ngIf="news.source">
+            <i>Source: <a routerLink="{{news.source}}">https://immi.homeaffairs.gov.au/</a></i>
+        <div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+.component-ctr {
+    display: grid;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+p{
+    color: var(--primary-color);
+}

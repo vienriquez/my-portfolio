@@ -1,0 +1,17 @@
+<div class="component-ctr">
+    <div>
+        <section *ngFor="let contactDetail of contactDetails">
+            <h1>{{contactDetail.field}}: </h1>
+            <p>{{contactDetail.value}}</p>
+        </section>
+    </div>
+
+    <div class="icons">
+        <h1>Follow me on:</h1>
+        <span *ngFor="let icon of icons">
+            <a href="{{icon.url}}">
+                <img src="{{icon.path}}" alt="{{icon.alt}}">
+            </a>
+        </span>
+    </div>
+</div>

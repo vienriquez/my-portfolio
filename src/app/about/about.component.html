@@ -1,0 +1,11 @@
+<div class="component-ctr">
+    <div class="about-section" *ngFor="let detail of details">
+        <h1>{{detail.field}}</h1>
+        <p>
+            {{detail.value}}
+        </p>
+        <div class="source-ctr" *ngIf="detail.source">
+            <i><a href="{{detail.source}}">Read more here</a></i>
+        <div>
+    </div>
+</div>

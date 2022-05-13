@@ -1,0 +1,48 @@
+.main-div {
+    height: 100%;
+    width: 100%;
+
+    p{
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+    .top-div {
+        display: flex;
+        height: 99px;
+        width: 100%;
+        justify-content: center;
+        box-shadow: 0 8px 6px -6px var(--primary-shadow);
+    }
+
+    .title {
+        font-size: 39px;
+        margin-top: 35px;
+        color: var(--primary-color);
+    }
+
+    .top-nav {
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+      
+    .top-nav a {
+        float: left;
+        color: var(--primary-color);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+      
+    .top-nav a:hover {
+        background-color: var(--background-secondary);
+        color: var(--primary-color);
+    }
+    
+    .top-nav a.active {
+        background-color: var(--secondary-color);
+        color: var(--background-main);
+    }
+}
