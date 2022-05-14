@@ -1,13 +1,17 @@
 .component-ctr {
     display: grid;
     justify-content: center;
+    margin-top: 40px;
     max-width: 80%;
     margin-left: 10%;
 }
 
+.news-section {
+    margin-bottom: 40px;
+}
+
 h1 {
     font-weight: 500;
-    margin-top: 40px;
 }
 
 p{

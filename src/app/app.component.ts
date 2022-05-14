@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Val Ian Enriquez';
-  urls = ['home', 'news', 'contact', 'about']
+  urls = ['home', 'news', 'contact', 'about'];
+  footer = 'All rights reserved 2022';
 
 }
