@@ -30,12 +30,12 @@ export class ContactComponent implements OnInit {
   icons = [
     {
       alt: "github",
-      path: "../assets/394187_github_icon.svg",
+      path: "./assets/394187_github_icon.svg",
       url: "https://github.com/vienriquez"
     },
     {
       alt: "linkedin",
-      path: "../assets/5282542_linkedin_network_social network_linkedin logo_icon.svg",
+      path: "./assets/5282542_linkedin_network_social network_linkedin logo_icon.svg",
       url: "https://www.linkedin.com/in/val-ian-enriquez-a9634b36/"
     }
   ]
